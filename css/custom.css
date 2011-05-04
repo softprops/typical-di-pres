@@ -1,0 +1,43 @@
+/* custom styles */
+.threed { text-shadow: -0.06em 0 red, 0.06em 0 cyan; }
+
+.pre {
+  white-space:pre;
+  margin:0;
+}
+
+.pre em, em {
+  color:#F82BB7;
+}
+
+em.emtc {
+  color:#F82BB7;
+}
+em.emt {
+  color:#2BCCFC;
+}
+em.emsig {
+  color:#1EAF0B;
+}
+
+em.ems {
+  color:#2BCCFC;
+}
+
+em {
+  font-style:normal;
+}
+.com { color:#ccc; }
+sup {
+  font-size:.5em;
+  color:#ccc;
+  font-family:Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+sub {
+  border-top:1px #ccc dashed;
+  color:#555;
+  display:block;
+  margin-top:1em;
+  font-size:.5em;
+  font-family:Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
